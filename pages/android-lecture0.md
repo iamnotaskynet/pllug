@@ -5,7 +5,7 @@ title: "Lecture 0"
 subheadline: ""
 teaser: ""
 header: no
-permalink: "/android/lecture0"
+permalink: "/android/lecture0/"
 ---
 
 ### Android architecture

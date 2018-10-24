@@ -5,7 +5,7 @@ title: "Lecture 1"
 subheadline: ""
 teaser: ""
 header: no
-permalink: "/android/lecture1"
+permalink: "/android/lecture1/"
 ---
 
 [Java Tutorials (Oracle)](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)
