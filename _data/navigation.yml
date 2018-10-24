@@ -33,6 +33,18 @@
   - title: "Lecture 1"
     url: "/android/lecture1/"
 
+- title: SWIFT/iOS
+  url: "/swift/"
+  side: left
+  dropdown:
+  - title: "Lecture 0"
+    url: "/swift/lecture0/"
+  - title: "Lecture 1"
+    url: "/swift/lecture1/"
+  - title: "Lecture 2"
+    url: "/swift/lecture2/"
+
+
 # - title: "Templates"
 #   url: "/design/"
 #   side: left
