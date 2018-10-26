@@ -44,6 +44,16 @@
   - title: "Lecture 2"
     url: "/swift/lecture2/"
 
+- title: C++/Qt
+  url: "/cpp/"
+  side: left
+  dropdown:
+  - title: "Lecture 1"
+    url: "/cpp/lecture1/"
+  - title: "Lecture 2"
+    url: "/cpp/lecture2/"
+  - title: "Lecture 3"
+    url: "/cpp/lecture3/"
 
 # - title: "Templates"
 #   url: "/design/"
