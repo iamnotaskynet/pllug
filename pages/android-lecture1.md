@@ -416,3 +416,46 @@ B = 2 * 3 * … *8
 
 ### Realization:
 
+```java
+import java.lang.Math;
+
+class Task1 {
+    public static void main(String[] args) {
+
+        int[] resultInt = way1();
+        System.out.println(resultInt[0]+ " " + resultInt[1] + " " + resultInt[2]);
+
+        double[] resultDouble = way2();
+        System.out.println(resultDouble[0]+ " " + resultDouble[1] + " " + resultDouble[2]);
+    }
+
+    private static int[] way1() {
+        int a = 3*3 + 4*4 + 5*5 + 6*6 + 7*7 + 8*8 + 9*9;
+
+        int b = 2*3*4*5*6*7*8;
+
+        int c = a + b;
+
+        return new int[] {a, b, c};
+    }
+
+    private static double[] way2(){
+        double a = 0.0;
+        for(double i = 3.0; i <=9; i++) a += Math.pow(i, 2.0);
+
+        double b = 2.0;
+        for(int i = 3; i <= 8; i++) b *= (double)i;
+
+        double c = a + b;
+
+        return new double[] {a, b, c};
+    }
+}   
+```
+
+### Output
+
+```
+280 40320 40600
+280.0 40320.0 40600.0
+```
