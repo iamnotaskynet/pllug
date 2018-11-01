@@ -2,7 +2,7 @@
 layout: page
 show_meta: false
 title: "Lecture 1"
-subheadline: "Short introduce to history of web development."
+subheadline: "Intro to UI development."
 teaser: "Internet. WWW. W3C. "
 header: no
 permalink: "/web-js/lecture1/"
@@ -28,10 +28,10 @@ Frameworks: jQuery, Angular, React.
 **git** - versions control system. Web repositories using git: GitHub, GitLab, BitBucket.
 
 
-### Task 1
+### Task 
 
 Using git and github commit and push some file to GitHub (registration needed)
 
-### Task 2
+### Realization
 
-Create a CV web page.
+(This is gh-page on github so it's commited and pushed. Done.)
