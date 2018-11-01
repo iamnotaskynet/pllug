@@ -19,12 +19,12 @@ Create a CV web page.
 ### Realization
 
 <div style="background: #152743; color: #ACDDF9; padding-left: 10px;">
-	<header>
+	<div>
     	<h2 style="color: #ACDDF9;">iamnotaskynet Resume</h2>
 		<img style="padding: 10px;" 
 		src="https://avatars1.githubusercontent.com/u/14093790?s=40&v=4">
-	</header>
-	<section>
+	</div>
+	<div>
 		<h4 style="color: #ACDDF9;">Expirience</h4>
 		<ol>
 			<li>
@@ -40,8 +40,8 @@ Create a CV web page.
 				</dl>
 			</li>
 		</ol>
-	</section>
-	<section>
+	</div>
+	<div>
     	<h4 style="color: #ACDDF9;">Education</h4>
     	<ul>
     		<li>codeacademy</li>
@@ -50,8 +50,8 @@ Create a CV web page.
     		<li>stepic</li>
     		<li>ossu</li>
     	</ul>
-    </section>
-    <section>
+    </div>
+    <div>
     	<h4 style="color: #ACDDF9;">Skills</h4>
     	<ul>
     		<li>HTML5</li>
@@ -62,8 +62,8 @@ Create a CV web page.
 	        <li>Swift</li>
 	        <li>C++</li>
     	</ul>
-    </section>
-    <footer>
+    </div>
+    <div>
     	<a href="https://github.com/iamnotaskynet">Github</a>
-    </footer>
+    </div>
 </div>
