@@ -43,3 +43,10 @@ https://github.com/TeslyukTaras/Java_Lecture2<br>
 Необхідно згенерувати тестові дані про користувачів, продавців та зроблені покупки. Зберегти дані у класі Market<br>
 реалізувати у класі Market метод для виведення у консоль дани про користувачів, продавців та зроблені покупки.<br>
 Обчислити загальну суму зроблених покупок та прибуток від комісії у 5%. Вивести результат у консолю.<br>
+
+### Realization:
+
+[link on github repository](https://github.com/iamnotaskynet/pllug-java-lesson2-task)
+
+
+![home work](/pllug/assets/img/homework/android/lecture2task.png "Lecture 2 task")
