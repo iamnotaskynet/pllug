@@ -36,6 +36,8 @@
     url: "/android/lecture1/"
   - title: "Lecture 2"
     url: "/android/lecture2/"
+  - title: "Lecture 3"
+    url: "/android/lecture3/"
 
 - title: SWIFT/iOS
   url: "/swift/"
