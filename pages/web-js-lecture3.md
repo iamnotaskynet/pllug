@@ -18,55 +18,7 @@ Modernize CV page using modern CSS3.
 
 ### Realization
 
-<style type="text/css">
-	#cv-template {
-		background: #152743; 
-		color: #ACDDF9; 
-		padding-left: 10px; 
-		border: 2px solid black;
-		border-radius: 2px;
-	}
-
-	.flex-container {
-		display: flex;
-		align-items: start;
-		justify-content: space-around;
-	}
-
-	#profile-img {
-		margin: 10px;
-		border: 5px solid #ACDDF9;
-		border-radius: 50%;
-	}
-
-	#profile-bio {
-		margin: 10px;
-		padding: 10px;
-		background: #ACDDF9;
-		color: #152743; 
-		border: 3px dashed white;
-	}
-
-	.profile-topics {
-		color: #ACDDF9;
-	}
-
-	.local-link {
-		color: #ACDDF9;
-		text-decoration: none;
-	}
-
-	.local-link:hover {
-		color: white;
-		text-decoration: none;
-		text-transform: uppercase;
-	}
-
-	.local-link: visited {
-		color: grey;
-		text-decoration: line-through;
-	}
-</style>
+<link rel="stylesheet" type="text/css" href="/pllug/assets/css/web-js-lecture3-task.css">
 <div id="cv-template" >
 	<h2 style="color: #ACDDF9;">iamnotaskynet </h2>
 	<div class="flex-container">
