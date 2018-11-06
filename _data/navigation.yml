@@ -14,6 +14,8 @@
     url: "/web-js/lecture1/"
   - title: "Lecture 2"
     url: "/web-js/lecture2/"
+  - title: "Lecture 3"
+    url: "/web-js/lecture3/"
 
 - title: C#/.NET
   url: "/csharp/"
@@ -32,6 +34,8 @@
     url: "/android/lecture0/"
   - title: "Lecture 1"
     url: "/android/lecture1/"
+  - title: "Lecture 2"
+    url: "/android/lecture2/"
 
 - title: SWIFT/iOS
   url: "/swift/"

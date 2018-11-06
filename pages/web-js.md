@@ -20,12 +20,12 @@ permalink: "/web-js/"
 [1]:https://github.com/vitaliyzolotoy
 [2]:https://www.facebook.com/zolotoy
 [3]:https://t.me/vitaliyzolotoy
-[4]:http
+[4]:https:
 [5]:https://www.facebook.com/profile.php?id=100006658144760
 [6]:https://t.me/rpavliv
-[7]:http
+[7]:https:
 [8]:https://www.facebook.com/tusykv
-[9]:http
+[9]:https:
 
 [Lecture 1 - Intro to UI](/pllug/web-js/lecture1/)
 

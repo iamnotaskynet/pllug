@@ -2,7 +2,7 @@
 layout: page
 show_meta: false
 title: "Lecture 1"
-subheadline: ""
+subheadline: "Java syntax"
 teaser: ""
 header: no
 permalink: "/android/lecture1/"
