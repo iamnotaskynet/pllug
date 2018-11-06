@@ -3,7 +3,7 @@ layout: page
 show_meta: false
 title: "Lecture 3"
 subheadline: "CSS basics"
-teaser: "Structure, elements, inline/block "
+teaser: "Selectors, properties, values. "
 header: no
 permalink: "/web-js/lecture3/"
 ---
