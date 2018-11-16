@@ -68,11 +68,11 @@ const isPalindrome = function (str) {
 #### Tasks
 <script src="/pllug/assets/js/homework/lecture4/tasks.js"></script>
 <script type="text/javascript">
-	// Task 1
+	
 	let task1outputElement = document.getElementById('task1-output');
 	task1outputElement.innerHTML = task1SortedString;
 
-	// Task 2
+	
 	let task2input1Element = document.getElementById('task2-input1');
 	let task2input2Element = document.getElementById('task2-input2');
 	let task2outputElement = document.getElementById('task2-output');
@@ -83,7 +83,7 @@ const isPalindrome = function (str) {
 		task2outputElement.innerHTML = task2func(number1, number2);
 	};
 
-	// Task 3
+	
 	let task3input1Element = document.getElementById('task3-input1');
 	let task3input2Element = document.getElementById('task3-input2');
 	let task3outputElement = document.getElementById('task3-output');
@@ -94,19 +94,18 @@ const isPalindrome = function (str) {
 		task3outputElement.innerHTML = task3func(number1, number2);
 	};
 
-	// Task 4
+	
 	let task4outputElement = document.getElementById('task4-output');
 	let task4inputElement = document.getElementById('task4-input');
 
 	task4inputElement.value = 10;
 	task4outputElement.innerHTML = getArrayOfPirmesString(Number(task4inputElement.value));
-	//task4element.innerHTML = getArrayOfPirmesString(65);
-	//console.log( getArrayOfPirmesString(65));
+	
 	function calculateTask4() {
 		task4outputElement.innerHTML = getArrayOfPirmesString(Number(task4inputElement.value));
 	}
 
-	// Task 5
+	
 	function calculateTask5() {
 		task5func();
 	};
