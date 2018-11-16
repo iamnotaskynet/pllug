@@ -142,14 +142,40 @@ function task3func(num1, num2) {
 	Для повного розуміння як має працювати гра перегляньте відео, яке я записав з повним функціоналом гри.
 */
 
-function task5play() {
-	const border = 5;
-	let attempts = 3;
-	let guessNumber = Math.round(Math.random() * (border+1) );
-
+function task5play(border, attempts, guessNumber, winnedCash) {
+	if(attempts === 0) {
+		let answer = confirm("Sorry! You Loose!\n Do you want to continue?");
+		if(answer) {
+			const newBorder = border*2;
+			const newGuessNumber = Math.round(Math.random() * (newBorder+1) );
+			task5play(newBorder, 3, newGuessNumber, winnedCash);
+		}
+		else {
+			return 0;
+		}
+		return 0;
+	}
 	let dialog = 
-`Enter a number from 0 to ${border} \n Attempts left: ${attempts} \n Total prize: $ \n Possible prize on current attempt: $ `;
-	let inputed = Number(confirm(dialog));
+		`Enter a number from 0 to ${border} \n
+		 Attempts left: ${attempts} \n
+		 Total prize: ${winnedCash}$ \n 
+		 Possible prize on current attempt: ${attempts*border}$ `;
+	let inputed = Number(prompt(dialog));
+
+	if(guessNumber === inputed) {
+		winnedCash += attempts*border;
+		let answer = confirm("Congragilations! You Win!\n Do you want to continue?");
+		if(answer) {
+			const newBorder = border*2;
+			const newGuessNumber = Math.round(Math.random() * (newBorder+1) );
+			task5play(newBorder, 3, newGuessNumber, winnedCash);
+		}
+
+		return 0;
+	} else {
+		attempts--;
+		task5play(border, attempts, guessNumber, winnedCash);
+	}
 
 }
 
@@ -157,6 +183,7 @@ function task5func() {
 	const answer = confirm("Do you want to be a dollar millionaire?");
 	if(!answer) alert("You will not become a dollar millionaire!");
 	else {
-		task5play();
+		const guessNumber = Math.round(Math.random() * (5+1) );
+		task5play(5, 3, guessNumber, 0);
 	}
 };
