@@ -32,3 +32,5 @@ permalink: "/web-js/"
 [Lecture 2 - HTML basics](/pllug/web-js/lecture2/)
 
 [Lecture 3 - CSS basics](/pllug/web-js/lecture3/)
+
+[Lecture 4 - JS basics](/pllug/web-js/lecture4/)

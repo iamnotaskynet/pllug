@@ -16,6 +16,8 @@
     url: "/web-js/lecture2/"
   - title: "Lecture 3"
     url: "/web-js/lecture3/"
+  - title: "Lecture 4"
+    url: "/web-js/lecture4/"
 
 - title: C#/.NET
   url: "/csharp/"
