@@ -66,6 +66,53 @@ const isPalindrome = function (str) {
 ### Realization
 
 #### Tasks
+<script src="/pllug/assets/js/homework/lecture4/tasks.js"></script>
+<script type="text/javascript">
+	// Task 1
+	let task1outputElement = document.getElementById('task1-output');
+	task1outputElement.innerHTML = task1SortedString;
+
+	// Task 2
+	let task2input1Element = document.getElementById('task2-input1');
+	let task2input2Element = document.getElementById('task2-input2');
+	let task2outputElement = document.getElementById('task2-output');
+	
+	function calculateTask2() {
+		let number1 = Number(task2input1Element.value);
+		let number2 = Number(task2input2Element.value);
+		task2outputElement.innerHTML = task2func(number1, number2);
+	};
+
+	// Task 3
+	let task3input1Element = document.getElementById('task3-input1');
+	let task3input2Element = document.getElementById('task3-input2');
+	let task3outputElement = document.getElementById('task3-output');
+
+	function calculateTask3() {
+		let number1 = Number(task3input1Element.value);
+		let number2 = Number(task3input2Element.value);
+		task3outputElement.innerHTML = task3func(number1, number2);
+	};
+
+	// Task 4
+	let task4outputElement = document.getElementById('task4-output');
+	let task4inputElement = document.getElementById('task4-input');
+
+	task4inputElement.value = 10;
+	task4outputElement.innerHTML = getArrayOfPirmesString(Number(task4inputElement.value));
+	//task4element.innerHTML = getArrayOfPirmesString(65);
+	//console.log( getArrayOfPirmesString(65));
+	function calculateTask4() {
+		task4outputElement.innerHTML = getArrayOfPirmesString(Number(task4inputElement.value));
+	}
+
+	// Task 5
+	function calculateTask5() {
+		task5func();
+	};
+
+</script>
+
 
 <div>
 	<h4>Task 1</h4>
@@ -122,49 +169,3 @@ const isPalindrome = function (str) {
 	<h4>Task 5</h4>
 	<button onclick="calculateTask5()">Launch Task 5</button>
 </div>
-<script src="/pllug/assets/js/homework/lecture4/tasks.js"></script>
-<script type="text/javascript">
-	// Task 1
-	let task1outputElement = document.getElementById('task1-output');
-	task1outputElement.innerHTML = task1SortedString;
-
-	// Task 2
-	let task2input1Element = document.getElementById('task2-input1');
-	let task2input2Element = document.getElementById('task2-input2');
-	let task2outputElement = document.getElementById('task2-output');
-	
-	function calculateTask2() {
-		let number1 = Number(task2input1Element.value);
-		let number2 = Number(task2input2Element.value);
-		task2outputElement.innerHTML = task2func(number1, number2);
-	};
-
-	// Task 3
-	let task3input1Element = document.getElementById('task3-input1');
-	let task3input2Element = document.getElementById('task3-input2');
-	let task3outputElement = document.getElementById('task3-output');
-
-	function calculateTask3() {
-		let number1 = Number(task3input1Element.value);
-		let number2 = Number(task3input2Element.value);
-		task3outputElement.innerHTML = task3func(number1, number2);
-	};
-
-	// Task 4
-	let task4outputElement = document.getElementById('task4-output');
-	let task4inputElement = document.getElementById('task4-input');
-
-	task4inputElement.value = 10;
-	task4outputElement.innerHTML = getArrayOfPirmesString(Number(task4inputElement.value));
-	//task4element.innerHTML = getArrayOfPirmesString(65);
-	//console.log( getArrayOfPirmesString(65));
-	function calculateTask4() {
-		task4outputElement.innerHTML = getArrayOfPirmesString(Number(task4inputElement.value));
-	}
-
-	// Task 5
-	function calculateTask5() {
-		task5func();
-	};
-
-</script>
